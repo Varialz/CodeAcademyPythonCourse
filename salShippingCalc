@@ -1,0 +1,41 @@
+// In this program, the user makes a calculator to show different prices on shipping rates.
+// For If,Elif,Else Statements make sure to start with the highest weight first and work your way down to the smallest weight at the end. 
+
+weight = 41.5
+ground_cost = 20.0
+premium_ground_shipping_cost = 125.0
+drone_Shipping_Cost = 0
+
+# Ground Shipping 
+if weight > 10.0:
+  ground_cost += (weight * 4.75) 
+elif weight > 6.00 and weight <= 10:
+  ground_cost += (weight * 4.00) 
+elif weight > 2 and weight >= 6:
+  ground_cost += (weight * 3.00) 
+elif weight <= 2:
+  ground_cost += (weight * 1.50) 
+else: 
+  ground_cost += 20.00
+print("Your Total with Ground Shipping is: ") 
+print(ground_cost)
+
+#Premium
+print("Flat Fee for Premium Ground Shipping is: ")
+print(premium_ground_shipping_cost)
+
+
+#Drone Shipping
+if weight > 10.00:
+  drone_Shipping_Cost = weight * 14.25 
+elif weight > 6.0 and weight <= 10.00:
+  drone_Shipping_Cost = weight * 12.00 
+elif weight > 2.00 and weight <= 6.00:
+  drone_Shipping_Cost = weight * 9.00 
+elif weight <= 2.00:
+  drone_Shipping_Cost = weight * 4.50 
+else: 
+  print("Error")
+  
+print("Drone Shipping Cost:")
+print(drone_Shipping_Cost)
