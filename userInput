@@ -1,0 +1,16 @@
+// How to get User Input
+
+Variable = input("Ask a question relating to Variable")
+
+^ This is the most basic way to get input from a user that involves naming a variable, getting input for that variable 
+and then inputting a string to ask the user a question regarding that variable. 
+
+In Example: 
+
+user_Favorite_Fruit = input("What's your favorite fruit?")
+
+When this code is ran, a promt will pop up and ask the user "What's your favorite fruit" and the user can repsond with a string. 
+After the user submits this answer, the variable user_Favorite_Fruit will now equal their string response.
+
+Side Note: Make sure to use ("") when asking questions because usually, an apostrophy will be in the question in which
+will cause a syntaxError when ran. 
