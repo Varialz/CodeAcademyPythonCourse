@@ -1,0 +1,7 @@
+// In the Python3 Course, we're taught how to make lists using this simple code:
+
+variable = [1, 2, 3, 4]
+
+// CodeAcademy Tells Us: A list begins and ends with square brackets ([ and ]).
+// Each item (i.e., 67 or 70) is separated by a comma (,)
+// It’s considered good practice to insert a space () after each comma, but your code will run just fine if you forget the space.
