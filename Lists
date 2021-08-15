@@ -2,6 +2,10 @@
 
 variable = [1, 2, 3, 4]
 
+sam_height_and_testscore = ["Sam", 67, 85.5, True]
+
+// You can make a list with all the different types of data in Python (string, integer, float, boolean)
+
 // CodeAcademy Tells Us: A list begins and ends with square brackets ([ and ]).
 // Each item (i.e., 67 or 70) is separated by a comma (,)
 // It’s considered good practice to insert a space () after each comma, but your code will run just fine if you forget the space.
