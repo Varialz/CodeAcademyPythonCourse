@@ -1,0 +1,76 @@
+// Users are told to look for all the syntaxErrors in this program. These are found on Line 9, 13 and 17. (A colon is needed after 0) (elif is spelled eli)
+// The parenthesis is not closed in the print command and the last elif should be else: and fortune == 4 should be under this.
+
+# Fortune Cookie Program 🥠
+
+import random
+
+fortune = random.randint(0, 4)
+
+if fortune == 0
+  print("May you one day be carbon neutral")
+elif fortune == 1:  
+  print("You have rice in your teeth")
+eli fortune == 2:
+  print("No snowflake feels responsible for an avalanche")
+elif fortune == 3:
+  print("You can only connect the dots looking backwards"
+elif fortune == 4:
+  print("The fortune you seek is in another cookie")
+  
+// nameErrors
+// In this Python3 Program, users are told to find the nameErrors in this program below. 
+// There's 2 nameErrors, #1 is option3 is not defined in the program. Add the code to the 
+// program to make that a valid option. #2 is on Line 44 score is written as scor, fix this
+// and the program should run fine. (I also deleted the \n in the print commands.)
+
+# Who Wants To Be A Millionaire 💰 
+
+score = 0
+
+option1 = 'Fresca'
+option2 = 'V8'
+option4 = 'A&W'
+  
+print("For ordering his favorite beverages on demand, LBJ had four buttons installed in the Oval Office labeled 'Coffee', 'Tea', 'Coke', and what?\n")
+
+print("A.", option1)
+print("B.", option2)
+print("C.", option3)
+print("D.", option4)
+  
+answer = 'a'
+
+if answer == 'A' or answer == 'a': 
+  scor += 100
+  print("\nCorrect!")
+else:
+  print("\nNope, sorry!")
+  
+// Type Errors In Python3
+// Type Errors In Python3 are made when different types of code are connected together.
+// When connecting String + Integers in a response, connect them like this print("The answer is ", integerAnswer)
+// By doing so, a string can be next to an integer response. 
+# Area Calculator 📏
+
+import math
+
+base = 20
+height = 30
+area = base * height / 2
+
+print("The triangle area is", area)
+
+length = 2
+width = 12
+area = length * width
+
+print("The rectangle area is" + area )
+    
+radius = 36
+area = math.pi * radius * radius
+    
+print("The circle area is", area)
+
+// Remember, Google and Stack Overflow are a programmer’s BFFs (best friends forever) 
+// In situations where an error is giving you a lot of trouble.
