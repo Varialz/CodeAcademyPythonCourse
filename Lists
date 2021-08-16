@@ -9,3 +9,17 @@ sam_height_and_testscore = ["Sam", 67, 85.5, True]
 // CodeAcademy Tells Us: A list begins and ends with square brackets ([ and ]).
 // Each item (i.e., 67 or 70) is separated by a comma (,)
 // It’s considered good practice to insert a space () after each comma, but your code will run just fine if you forget the space.
+
+// Append & Delete are used to either Add or remove data at the end of a list. 
+
+example_list = [1, 2, 3, 4, 5]
+example_list.remove(5)
+print(example_list) 
+
+// The program above will delete 5 from the list.
+
+example_list = [1, 2, 3, 4]
+example_list.append(5)
+print(example_list)
+
+// The program above will add the number 5 to the list. 
